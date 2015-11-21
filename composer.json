@@ -1,18 +1,11 @@
 {
-    "name": "justblackbird/handlebars.php-helpers",
-    "version": "0.3.0",
+    "name": "runmybusiness/handlebars.php-helpers",
     "description": "A set of helpers for Handlebars.php template engine.",
     "type": "library",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Dmitriy Simushev",
-            "email": "simushevds@gmail.com"
-        }
-    ],
     "support": {
-        "issues": "https://github.com/JustBlackBird/handlebars.php-helpers/issues",
-        "source": "https://github.com/JustBlackBird/handlebars.php-helpers"
+        "issues": "https://github.com/runmybusiness/handlebars.php-helpers/issues",
+        "source": "https://github.com/runmybusiness/handlebars.php-helpers"
     },
     "require": {
         "xamin/handlebars.php": "0.10.*"
@@ -23,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "JustBlackBird\\HandlebarsHelpers\\": "src/"
+            "RunMyBusiness\\HandlebarsHelpers\\": "src/"
         }
     }
 }
