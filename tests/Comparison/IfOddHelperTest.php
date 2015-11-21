@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace JustBlackBird\HandlebarsHelpers\Tests\Comparison;
+namespace RunMyBusiness\HandlebarsHelpers\Tests\Comparison;
 
-use JustBlackBird\HandlebarsHelpers\Comparison\IfOddHelper;
+use RunMyBusiness\HandlebarsHelpers\Comparison\IfOddHelper;
 
 /**
  * Test class for "ifOdd" helper.

@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace JustBlackBird\HandlebarsHelpers\Layout;
+namespace RunMyBusiness\HandlebarsHelpers\Layout;
 
 use Handlebars\Context;
 use Handlebars\Helper as HelperInterface;
@@ -18,7 +18,7 @@ use Handlebars\Template;
  * A helper for overriding content of a block.
  *
  * One or more "override" blocks must be wrapped with
- * {@link \JustBlackBird\HandlebarsHelpers\Layout\ExtendsHelper} helper.
+ * {@link \RunMyBusiness\HandlebarsHelpers\Layout\ExtendsHelper} helper.
  *
  * Usage:
  * ```handlebars

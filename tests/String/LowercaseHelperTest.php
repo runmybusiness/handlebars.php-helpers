@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace JustBlackBird\HandlebarsHelpers\Tests\String;
+namespace RunMyBusiness\HandlebarsHelpers\Tests\String;
 
-use JustBlackBird\HandlebarsHelpers\String\LowercaseHelper;
+use RunMyBusiness\HandlebarsHelpers\String\LowercaseHelper;
 
 /**
  * Test class for "lowercase" helper.

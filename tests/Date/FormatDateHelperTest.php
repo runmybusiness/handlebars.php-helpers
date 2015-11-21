@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace JustBlackBird\HandlebarsHelpers\Tests\Date;
+namespace RunMyBusiness\HandlebarsHelpers\Tests\Date;
 
-use JustBlackBird\HandlebarsHelpers\Date\FormatDateHelper;
+use RunMyBusiness\HandlebarsHelpers\Date\FormatDateHelper;
 
 /**
  * Test class for "formatDate" helper.

@@ -8,10 +8,10 @@
  * file that was distributed with this source code.
  */
 
-namespace JustBlackBird\HandlebarsHelpers\Tests\Layout;
+namespace RunMyBusiness\HandlebarsHelpers\Tests\Layout;
 
-use JustBlackBird\HandlebarsHelpers\Layout\BlockStorage;
-use JustBlackBird\HandlebarsHelpers\Layout\ExtendsHelper;
+use RunMyBusiness\HandlebarsHelpers\Layout\BlockStorage;
+use RunMyBusiness\HandlebarsHelpers\Layout\ExtendsHelper;
 
 /**
  * Test class for "extends" helper.

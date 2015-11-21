@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace JustBlackBird\HandlebarsHelpers\Comparison;
+namespace RunMyBusiness\HandlebarsHelpers\Comparison;
 
 use Handlebars\Context;
 use Handlebars\Helper as HelperInterface;

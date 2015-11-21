@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace JustBlackBird\HandlebarsHelpers\Tests\Comparison;
+namespace RunMyBusiness\HandlebarsHelpers\Tests\Comparison;
 
-use JustBlackBird\HandlebarsHelpers\Comparison\UnlessEqualHelper;
+use RunMyBusiness\HandlebarsHelpers\Comparison\UnlessEqualHelper;
 
 /**
  * Test class for "unlessEqual" helper.

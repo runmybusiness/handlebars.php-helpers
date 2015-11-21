@@ -18,7 +18,7 @@ To use all helpers in your templates just create an instance of helpers set and
 attach it to Handlebars engine.
 
 ```php
-$helpers = new \JustBlackBird\HandlebarsHelpers\Helpers();
+$helpers = new \RunMyBusiness\HandlebarsHelpers\Helpers();
 $engine = new \Handlebars\Handlebars(array('helpers' => $helpers));
 ```
 
@@ -27,7 +27,7 @@ helpers set and attach it to Handlebars engine. Here is an example for Date
 helpers:
 
 ```php
-$helpers = new \JustBlackBird\HandlebarsHelpers\Date\Helpers();
+$helpers = new \RunMyBusiness\HandlebarsHelpers\Date\Helpers();
 $engine = new \Handlebars\Handlebars(array('helpers' => $helpers));
 ```
 
@@ -38,7 +38,7 @@ helpers set:
 $engine = new \Handlebars\Handlebars();
 $engine->getHelpers()->add(
     'ifEqual',
-    new \JustBlackBird\HandlebarsHelpers\Comparison\IfEqualHelper()
+    new \RunMyBusiness\HandlebarsHelpers\Comparison\IfEqualHelper()
 );
 ```
 

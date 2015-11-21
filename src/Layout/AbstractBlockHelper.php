@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace JustBlackBird\HandlebarsHelpers\Layout;
+namespace RunMyBusiness\HandlebarsHelpers\Layout;
 
 /**
  * Contains base functionality for all helpers related with blocks overriding.

@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace JustBlackBird\HandlebarsHelpers\Tests;
+namespace RunMyBusiness\HandlebarsHelpers\Tests;
 
-use JustBlackBird\HandlebarsHelpers\Helpers;
+use RunMyBusiness\HandlebarsHelpers\Helpers;
 
 /**
  * Test class for Global Helpers Set.

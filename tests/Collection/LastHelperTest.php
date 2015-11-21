@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace JustBlackBird\HandlebarsHelpers\Tests\Collection;
+namespace RunMyBusiness\HandlebarsHelpers\Tests\Collection;
 
-use JustBlackBird\HandlebarsHelpers\Collection\LastHelper;
+use RunMyBusiness\HandlebarsHelpers\Collection\LastHelper;
 
 /**
  * Test class for "last" helper.

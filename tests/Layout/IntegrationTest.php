@@ -8,14 +8,14 @@
  * file that was distributed with this source code.
  */
 
-namespace JustBlackBird\HandlebarsHelpers\Tests\Layout;
+namespace RunMyBusiness\HandlebarsHelpers\Tests\Layout;
 
-use JustBlackBird\HandlebarsHelpers\Layout\BlockHelper;
-use JustBlackBird\HandlebarsHelpers\Layout\BlockStorage;
-use JustBlackBird\HandlebarsHelpers\Layout\ExtendsHelper;
-use JustBlackBird\HandlebarsHelpers\Layout\IfOverriddenHelper;
-use JustBlackBird\HandlebarsHelpers\Layout\OverrideHelper;
-use JustBlackBird\HandlebarsHelpers\Layout\UnlessOverriddenHelper;
+use RunMyBusiness\HandlebarsHelpers\Layout\BlockHelper;
+use RunMyBusiness\HandlebarsHelpers\Layout\BlockStorage;
+use RunMyBusiness\HandlebarsHelpers\Layout\ExtendsHelper;
+use RunMyBusiness\HandlebarsHelpers\Layout\IfOverriddenHelper;
+use RunMyBusiness\HandlebarsHelpers\Layout\OverrideHelper;
+use RunMyBusiness\HandlebarsHelpers\Layout\UnlessOverriddenHelper;
 
 /**
  * Test class for all layout helpers.

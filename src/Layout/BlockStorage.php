@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace JustBlackBird\HandlebarsHelpers\Layout;
+namespace RunMyBusiness\HandlebarsHelpers\Layout;
 
 /**
  * A storage for overridable blocks' content.

@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace JustBlackBird\HandlebarsHelpers\Tests\Layout;
+namespace RunMyBusiness\HandlebarsHelpers\Tests\Layout;
 
-use JustBlackBird\HandlebarsHelpers\Layout\Helpers;
+use RunMyBusiness\HandlebarsHelpers\Layout\Helpers;
 
 /**
  * Test class for Layout Helpers Set.

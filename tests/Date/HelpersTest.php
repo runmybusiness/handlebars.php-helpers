@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace JustBlackBird\HandlebarsHelpers\Tests\Date;
+namespace RunMyBusiness\HandlebarsHelpers\Tests\Date;
 
-use JustBlackBird\HandlebarsHelpers\Date\Helpers;
+use RunMyBusiness\HandlebarsHelpers\Date\Helpers;
 
 /**
  * Test class for Date Helpers Set.

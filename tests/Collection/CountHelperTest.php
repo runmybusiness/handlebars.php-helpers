@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace JustBlackBird\HandlebarsHelpers\Tests\Collection;
+namespace RunMyBusiness\HandlebarsHelpers\Tests\Collection;
 
-use JustBlackBird\HandlebarsHelpers\Collection\CountHelper;
+use RunMyBusiness\HandlebarsHelpers\Collection\CountHelper;
 
 /**
  * Test class for "count" helper.
