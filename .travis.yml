@@ -1,8 +1,11 @@
 language: php
 php:
-    - 5.5
-    - 5.6
-    - 7.0
-    - hhvm
+- 5.5
+- 5.6
+- 7.0
+- hhvm
 install: composer install
 script: "./vendor/bin/phpunit && ./vendor/bin/phpcs --standard=PSR2 -n src/"
+notifications:
+  slack:
+    secure: aEJKU9ws3j6LYe5dRowYbTZSxOEf+9mBWryD/xyj9QQHOYKrviKQd3htDLqyYTObDbOfRIfjLDEmejI5GVYymfOyP66g0B9tF3B9wI2js3l98DeOBOyi3Qqkkv3dHWfLMWoV+MOCxJSbq6kuW7/LFb68XObJdWnnc+rn1N9FsxPG517jXODx28CJqCrSe/ZLcWvHob8aZ+7yCrpMOIy7eXbIGHueBF9v00xK4QrdY2lqh8NP7EohU6thBJSg0bjSEo9RGOeBwPkGn1l7PRe8vr75JEERqAS9jHXWGy1v0Gca0l13ymyo6rec4ERvxGyiotQL2FmvmDYR8FMPOZbV3ZIO0hwJJ0w8vI16Ct5BMD5h1JFF7a/wh4DY8KzyQEgnx0jmuHgpWnU+WRTDLWAaiEIGV7UhuPB5WvqrikKQ4Q9an39k4OVK8ys6V9V8sGf/LbggP08JzasHJFfLKH+4TDACI/yO1vPS0KhMnud7fyO6GP4ufoFjdrZj9wOBgeOfVZvI+TPvV4wKy4n/JQTzc9BMZmKjgr9PtSH9Kfn05XUMUyMaVnTgylgJmnlT/fvAa2GHuL7zzSpEYVvHK0VtmLdPkVkyKFbaKsQgwV2SLENy+7ENUWNZDcZ5UcxYx3vNBHfKyqQWwHrmcqjcPTht0x+Zn40ByOIOpMvyqzDFR7M=
