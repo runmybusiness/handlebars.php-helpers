@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace RunMyBusiness\HandlebarsHelpers\Tests\String;
+namespace RunMyBusiness\HandlebarsHelpers\Tests\Str;
 
-use RunMyBusiness\HandlebarsHelpers\String\Helpers;
+use RunMyBusiness\HandlebarsHelpers\Str\Helpers;
 
 /**
  * Test class for String Helpers Set.
@@ -38,11 +38,11 @@ class HelpersTest extends \PHPUnit_Framework_TestCase
     public function helpersProvider()
     {
         return array(
-            array('lowercase', '\\RunMyBusiness\\HandlebarsHelpers\\String\\LowercaseHelper'),
-            array('uppercase', '\\RunMyBusiness\\HandlebarsHelpers\\String\\UppercaseHelper'),
-            array('repeat', '\\RunMyBusiness\\HandlebarsHelpers\\String\\RepeatHelper'),
-            array('replace', '\\RunMyBusiness\\HandlebarsHelpers\\String\\ReplaceHelper'),
-            array('truncate', '\\RunMyBusiness\\HandlebarsHelpers\\String\\TruncateHelper'),
+            array('lowercase', '\\RunMyBusiness\\HandlebarsHelpers\\Str\\LowercaseHelper'),
+            array('uppercase', '\\RunMyBusiness\\HandlebarsHelpers\\Str\\UppercaseHelper'),
+            array('repeat', '\\RunMyBusiness\\HandlebarsHelpers\\Str\\RepeatHelper'),
+            array('replace', '\\RunMyBusiness\\HandlebarsHelpers\\Str\\ReplaceHelper'),
+            array('truncate', '\\RunMyBusiness\\HandlebarsHelpers\\Str\\TruncateHelper'),
         );
     }
 }

@@ -8,26 +8,27 @@
  * file that was distributed with this source code.
  */
 
-namespace RunMyBusiness\HandlebarsHelpers\String;
+namespace RunMyBusiness\HandlebarsHelpers\Str;
 
 use Handlebars\Context;
 use Handlebars\Helper as HelperInterface;
 use Handlebars\Template;
 
 /**
- * Converts a string to uppercase.
+ * Repeats content specified number of times.
  *
  * Usage:
  * ```handlebars
- *   {{uppercase string}}
+ *   {{#repeat times}}content to repeat{{/repeat}}
  * ```
  *
  * Arguments:
- *  - "string": A string that should be converted to uppercase.
+ *  - "times": How many times content must be repeated. This value must be
+ *    greater than or equal to 0 otherwise an exception will be thrown.
  *
  * @author Dmitriy Simushev <simushevds@gmail.com>
  */
-class UppercaseHelper implements HelperInterface
+class RepeatHelper implements HelperInterface
 {
     /**
      * {@inheritdoc}
@@ -37,10 +38,18 @@ class UppercaseHelper implements HelperInterface
         $parsed_args = $template->parseArguments($args);
         if (count($parsed_args) != 1) {
             throw new \InvalidArgumentException(
-                '"uppercase" helper expects exactly one argument.'
+                '"repeat" helper expects exactly one argument.'
             );
         }
 
-        return strtoupper($context->get($parsed_args[0]));
+        $times = intval($context->get($parsed_args[0]));
+        if ($times < 0) {
+            throw new \InvalidArgumentException(
+                'The first argument of "repeat" helper has to be greater than or equal to 0.'
+            );
+        }
+        $string = $template->render($context);
+
+        return str_repeat($string, $times);
     }
 }

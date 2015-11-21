@@ -8,26 +8,27 @@
  * file that was distributed with this source code.
  */
 
-namespace RunMyBusiness\HandlebarsHelpers\String;
+namespace RunMyBusiness\HandlebarsHelpers\Str;
 
 use Handlebars\Context;
 use Handlebars\Helper as HelperInterface;
 use Handlebars\Template;
 
 /**
- * Converts a string to lowercase.
+ * Helper for replacing substrings.
  *
  * Usage:
  * ```handlebars
- *   {{lowercase string}}
+ *   {{#replace search replacement}}Target string to search in.{{/replace}}
  * ```
  *
  * Arguments:
- *  - "string": A string that should be converted to lowercase.
+ *  - "search": The value that should be replaced.
+ *  - "replacement": The value that should be use as a replacement.
  *
  * @author Dmitriy Simushev <simushevds@gmail.com>
  */
-class LowercaseHelper implements HelperInterface
+class ReplaceHelper implements HelperInterface
 {
     /**
      * {@inheritdoc}
@@ -35,12 +36,16 @@ class LowercaseHelper implements HelperInterface
     public function execute(Template $template, Context $context, $args, $source)
     {
         $parsed_args = $template->parseArguments($args);
-        if (count($parsed_args) != 1) {
+        if (count($parsed_args) != 2) {
             throw new \InvalidArgumentException(
-                '"lowercase" helper expects exactly one argument.'
+                '"replace" helper expects exactly two arguments.'
             );
         }
 
-        return strtolower($context->get($parsed_args[0]));
+        $search = $context->get($parsed_args[0]);
+        $replacement = $context->get($parsed_args[1]);
+        $subject = (string)$template->render($context);
+
+        return str_replace($search, $replacement, $subject);
     }
 }

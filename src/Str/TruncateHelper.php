@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace RunMyBusiness\HandlebarsHelpers\String;
+namespace RunMyBusiness\HandlebarsHelpers\Str;
 
 use Handlebars\Context;
 use Handlebars\Helper as HelperInterface;

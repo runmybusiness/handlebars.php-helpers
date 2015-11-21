@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace RunMyBusiness\HandlebarsHelpers\Tests\String;
+namespace RunMyBusiness\HandlebarsHelpers\Tests\Str;
 
-use RunMyBusiness\HandlebarsHelpers\String\UppercaseHelper;
+use RunMyBusiness\HandlebarsHelpers\Str\UppercaseHelper;
 
 /**
  * Test class for "uppercase" helper.

@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace RunMyBusiness\HandlebarsHelpers\Tests\String;
+namespace RunMyBusiness\HandlebarsHelpers\Tests\Str;
 
-use RunMyBusiness\HandlebarsHelpers\String\ReplaceHelper;
+use RunMyBusiness\HandlebarsHelpers\Str\ReplaceHelper;
 
 /**
  * Test class for "replace" helper.

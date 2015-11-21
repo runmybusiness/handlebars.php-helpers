@@ -12,7 +12,7 @@ namespace RunMyBusiness\HandlebarsHelpers\Comparison;
 
 use Handlebars\Context;
 use Handlebars\Helper as HelperInterface;
-use Handlebars\String;
+use Handlebars\Str;
 use Handlebars\Template;
 
 /**
@@ -49,7 +49,7 @@ class IfAnyHelper implements HelperInterface
             $value = $context->get($parsed_arg);
 
             if ($value instanceof String) {
-                // Casting any object of \Handlebars\String will have false
+                // Casting any object of \Handlebars\Str will have false
                 // positive result even for those with empty internal strings.
                 // Thus we need to check internal string of such objects.
                 $value = $value->getString();

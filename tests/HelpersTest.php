@@ -54,11 +54,11 @@ class HelpersTest extends \PHPUnit_Framework_TestCase
             array('unlessEqual', '\\RunMyBusiness\\HandlebarsHelpers\\Comparison\\UnlessEqualHelper'),
 
             // String helpers
-            array('lowercase', '\\RunMyBusiness\\HandlebarsHelpers\\String\\LowercaseHelper'),
-            array('uppercase', '\\RunMyBusiness\\HandlebarsHelpers\\String\\UppercaseHelper'),
-            array('repeat', '\\RunMyBusiness\\HandlebarsHelpers\\String\\RepeatHelper'),
-            array('replace', '\\RunMyBusiness\\HandlebarsHelpers\\String\\ReplaceHelper'),
-            array('truncate', '\\RunMyBusiness\\HandlebarsHelpers\\String\\TruncateHelper'),
+            array('lowercase', '\\RunMyBusiness\\HandlebarsHelpers\\Str\\LowercaseHelper'),
+            array('uppercase', '\\RunMyBusiness\\HandlebarsHelpers\\Str\\UppercaseHelper'),
+            array('repeat', '\\RunMyBusiness\\HandlebarsHelpers\\Str\\RepeatHelper'),
+            array('replace', '\\RunMyBusiness\\HandlebarsHelpers\\Str\\ReplaceHelper'),
+            array('truncate', '\\RunMyBusiness\\HandlebarsHelpers\\Str\\TruncateHelper'),
 
             // Layout helpers
             array('block', '\\RunMyBusiness\\HandlebarsHelpers\\Layout\\BlockHelper'),
