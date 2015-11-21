@@ -39,33 +39,33 @@ class HelpersTest extends \PHPUnit_Framework_TestCase
     {
         return array(
             // Date helpers
-            array('formatDate', '\\JustBlackBird\\HandlebarsHelpers\\Date\\FormatDateHelper'),
+            array('formatDate', '\\RunMyBusiness\\HandlebarsHelpers\\Date\\FormatDateHelper'),
 
             // Collection helpers
-            array('count', '\\JustBlackBird\\HandlebarsHelpers\\Collection\\CountHelper'),
-            array('first', '\\JustBlackBird\\HandlebarsHelpers\\Collection\\FirstHelper'),
-            array('last', '\\JustBlackBird\\HandlebarsHelpers\\Collection\\LastHelper'),
+            array('count', '\\RunMyBusiness\\HandlebarsHelpers\\Collection\\CountHelper'),
+            array('first', '\\RunMyBusiness\\HandlebarsHelpers\\Collection\\FirstHelper'),
+            array('last', '\\RunMyBusiness\\HandlebarsHelpers\\Collection\\LastHelper'),
 
             // Comparison helpers
-            array('ifAny', '\\JustBlackBird\\HandlebarsHelpers\\Comparison\\IfAnyHelper'),
-            array('ifEqual', '\\JustBlackBird\\HandlebarsHelpers\\Comparison\\IfEqualHelper'),
-            array('ifEven', '\\JustBlackBird\\HandlebarsHelpers\\Comparison\\IfEvenHelper'),
-            array('ifOdd', '\\JustBlackBird\\HandlebarsHelpers\\Comparison\\IfOddHelper'),
-            array('unlessEqual', '\\JustBlackBird\\HandlebarsHelpers\\Comparison\\UnlessEqualHelper'),
+            array('ifAny', '\\RunMyBusiness\\HandlebarsHelpers\\Comparison\\IfAnyHelper'),
+            array('ifEqual', '\\RunMyBusiness\\HandlebarsHelpers\\Comparison\\IfEqualHelper'),
+            array('ifEven', '\\RunMyBusiness\\HandlebarsHelpers\\Comparison\\IfEvenHelper'),
+            array('ifOdd', '\\RunMyBusiness\\HandlebarsHelpers\\Comparison\\IfOddHelper'),
+            array('unlessEqual', '\\RunMyBusiness\\HandlebarsHelpers\\Comparison\\UnlessEqualHelper'),
 
             // String helpers
-            array('lowercase', '\\JustBlackBird\\HandlebarsHelpers\\String\\LowercaseHelper'),
-            array('uppercase', '\\JustBlackBird\\HandlebarsHelpers\\String\\UppercaseHelper'),
-            array('repeat', '\\JustBlackBird\\HandlebarsHelpers\\String\\RepeatHelper'),
-            array('replace', '\\JustBlackBird\\HandlebarsHelpers\\String\\ReplaceHelper'),
-            array('truncate', '\\JustBlackBird\\HandlebarsHelpers\\String\\TruncateHelper'),
+            array('lowercase', '\\RunMyBusiness\\HandlebarsHelpers\\String\\LowercaseHelper'),
+            array('uppercase', '\\RunMyBusiness\\HandlebarsHelpers\\String\\UppercaseHelper'),
+            array('repeat', '\\RunMyBusiness\\HandlebarsHelpers\\String\\RepeatHelper'),
+            array('replace', '\\RunMyBusiness\\HandlebarsHelpers\\String\\ReplaceHelper'),
+            array('truncate', '\\RunMyBusiness\\HandlebarsHelpers\\String\\TruncateHelper'),
 
             // Layout helpers
-            array('block', '\\JustBlackBird\\HandlebarsHelpers\\Layout\\BlockHelper'),
-            array('extends', '\\JustBlackBird\\HandlebarsHelpers\\Layout\\ExtendsHelper'),
-            array('override', '\\JustBlackBird\\HandlebarsHelpers\\Layout\\OverrideHelper'),
-            array('ifOverridden', '\\JustBlackBird\\HandlebarsHelpers\\Layout\\IfOverriddenHelper'),
-            array('unlessOverridden', '\\JustBlackBird\\HandlebarsHelpers\\Layout\\UnlessOverriddenHelper'),
+            array('block', '\\RunMyBusiness\\HandlebarsHelpers\\Layout\\BlockHelper'),
+            array('extends', '\\RunMyBusiness\\HandlebarsHelpers\\Layout\\ExtendsHelper'),
+            array('override', '\\RunMyBusiness\\HandlebarsHelpers\\Layout\\OverrideHelper'),
+            array('ifOverridden', '\\RunMyBusiness\\HandlebarsHelpers\\Layout\\IfOverriddenHelper'),
+            array('unlessOverridden', '\\RunMyBusiness\\HandlebarsHelpers\\Layout\\UnlessOverriddenHelper'),
         );
     }
 }

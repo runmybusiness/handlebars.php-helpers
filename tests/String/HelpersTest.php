@@ -38,11 +38,11 @@ class HelpersTest extends \PHPUnit_Framework_TestCase
     public function helpersProvider()
     {
         return array(
-            array('lowercase', '\\JustBlackBird\\HandlebarsHelpers\\String\\LowercaseHelper'),
-            array('uppercase', '\\JustBlackBird\\HandlebarsHelpers\\String\\UppercaseHelper'),
-            array('repeat', '\\JustBlackBird\\HandlebarsHelpers\\String\\RepeatHelper'),
-            array('replace', '\\JustBlackBird\\HandlebarsHelpers\\String\\ReplaceHelper'),
-            array('truncate', '\\JustBlackBird\\HandlebarsHelpers\\String\\TruncateHelper'),
+            array('lowercase', '\\RunMyBusiness\\HandlebarsHelpers\\String\\LowercaseHelper'),
+            array('uppercase', '\\RunMyBusiness\\HandlebarsHelpers\\String\\UppercaseHelper'),
+            array('repeat', '\\RunMyBusiness\\HandlebarsHelpers\\String\\RepeatHelper'),
+            array('replace', '\\RunMyBusiness\\HandlebarsHelpers\\String\\ReplaceHelper'),
+            array('truncate', '\\RunMyBusiness\\HandlebarsHelpers\\String\\TruncateHelper'),
         );
     }
 }

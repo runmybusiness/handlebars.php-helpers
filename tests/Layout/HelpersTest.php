@@ -38,11 +38,11 @@ class HelpersTest extends \PHPUnit_Framework_TestCase
     public function helpersProvider()
     {
         return array(
-            array('block', '\\JustBlackBird\\HandlebarsHelpers\\Layout\\BlockHelper'),
-            array('extends', '\\JustBlackBird\\HandlebarsHelpers\\Layout\\ExtendsHelper'),
-            array('override', '\\JustBlackBird\\HandlebarsHelpers\\Layout\\OverrideHelper'),
-            array('ifOverridden', '\\JustBlackBird\\HandlebarsHelpers\\Layout\\IfOverriddenHelper'),
-            array('unlessOverridden', '\\JustBlackBird\\HandlebarsHelpers\\Layout\\UnlessOverriddenHelper'),
+            array('block', '\\RunMyBusiness\\HandlebarsHelpers\\Layout\\BlockHelper'),
+            array('extends', '\\RunMyBusiness\\HandlebarsHelpers\\Layout\\ExtendsHelper'),
+            array('override', '\\RunMyBusiness\\HandlebarsHelpers\\Layout\\OverrideHelper'),
+            array('ifOverridden', '\\RunMyBusiness\\HandlebarsHelpers\\Layout\\IfOverriddenHelper'),
+            array('unlessOverridden', '\\RunMyBusiness\\HandlebarsHelpers\\Layout\\UnlessOverriddenHelper'),
         );
     }
 }

@@ -38,7 +38,7 @@ class HelpersTest extends \PHPUnit_Framework_TestCase
     public function helpersProvider()
     {
         return array(
-            array('formatDate', '\\JustBlackBird\\HandlebarsHelpers\\Date\\FormatDateHelper'),
+            array('formatDate', '\\RunMyBusiness\\HandlebarsHelpers\\Date\\FormatDateHelper'),
         );
     }
 }

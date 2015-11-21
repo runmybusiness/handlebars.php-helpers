@@ -1,13 +1,13 @@
 # Handlebars.php Helpers
 
-[![Build Status](https://travis-ci.org/JustBlackBird/handlebars.php-helpers.svg)](https://travis-ci.org/JustBlackBird/handlebars.php-helpers)
+[![Build Status](https://travis-ci.org/RunMyBusiness/handlebars.php-helpers.svg)](https://travis-ci.org/RunMyBusiness/handlebars.php-helpers)
 
 > Provides a set of helpers for [Handlebars.php](https://github.com/XaminProject/handlebars.php) template engine.
 
 
 ## Installation
 
-Simply add a dependency on `justblackbird/handlebars.php-helpers` to your
+Simply add a dependency on `RunMyBusiness/handlebars.php-helpers` to your
 project's `composer.json` file if you use [Composer](http://getcomposer.org/) to
 manage the dependencies of your project.
 
